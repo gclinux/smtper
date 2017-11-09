@@ -1,5 +1,5 @@
 {
-    "name": "joffe/smtper",
+    "name": "gclinux/smtper",
     "description": "A simple SMTP Email senter class with PHP.",
     "license": "MIT",
     "type": "library",
