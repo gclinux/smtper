@@ -27,8 +27,10 @@ composer require gclinux/smtper
 
 #### how to use:
 
+
+
 ```php
-$mail = new gclinux/Smtper();
+$mail = new gclinux\Smtper();
 
  $mail->setDebug(true); //do you want to output the debug information.是否输出调试信息
 
@@ -52,5 +54,17 @@ $mail->setBcc("XXXXX"); //Set CC,multiple calls will append.多次调用会添�
 
 $mail->send();
 
+```
+
+
+
+it can work well without composer,but  you need to inlcude "src/Smtp.php"
+
+它也可以不需要composer,但你要手动include src/Smtp.php这个文件:
+
+
+
+```
+include "src/Smtp.php"
 ```
 
