@@ -1,0 +1,21 @@
+{
+    "name": "joffe/smtper",
+    "description": "A simple SMTP Email senter class with PHP.",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "gclinux",
+            "email": "os.debian@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        
+    }
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
