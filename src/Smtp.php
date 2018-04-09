@@ -589,7 +589,7 @@ class Smtper {
         $str = socket_read($this->_socket, 1024);
         if(!strpos($str, "220")){
             $this->_errorMessage = $str;
-            return fasle;
+            return false;
         }
          
         return true;
